@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="500">
+    <title>表单与PHP交互</title>
+</head>
+<body>
+    <!--action指定需要提交的服务器的地址 method为具体的提交方式-->
+    <form action="" method="POST">
+        用户名：<input type="text" name="name"><br>
+        密  码：<input type="password" name="password"><br>
+        <input type="radio" name="sex" value="male">boy
+        <input type="radio" name="sex" value="female">girl
+        <input type="radio" name="sex"value="dog">unknown
+        <br>
+        <input type="radio" name="sex">
+        <input type="radio" name="sex2">
+        <input type="radio" name="sex2">
+        <br>
+        <input type="checkbox" name="hobby" value="book">book
+        <input type="checkbox" name="hobby" value="sport">sports
+        <input type="checkbox" name="hobby" value="game">games
+        <input type="checkbox" name="hobby" value="movie">movies
+        <input type="checkbox" name="hobby" value="program">program
+        <br>
+        country :<select name="country">
+            <option value="美国">american</option>
+            <option value="中国">china</option>
+        </select>
+        <br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

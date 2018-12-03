@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10">
+    <title>table</title>
+</head>
+<body>
+    <table border="5">
+        <tr>
+            
+            <th>部门</th>
+            <th>性别</th> <!--tr代表一行，th代表列-->
+            <th>姓名</th>
+            <th>工资</th>
+        </tr>
+        <tr>
+            <td rowspan="4">研发组</td>
+            <td>不详</td> <!--tr代表一行，td代表列(和th的区别在于一个是表单标题一个是表单内容)---->
+            <td>路飞</td><!--rowspan=4代表这一列的数据将在接下来的四行中显示-->
+            <td>30000</td>
+        </tr>
+        <tr>
+            
+            <td>女</td>
+            <td>红红</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            
+            <td>男</td>
+            <td>单罗</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            
+            
+            
+        <td colspan="2">工资合计</td><!--colspan代表这一数据将在接下来的两列显示-->
+        <td>35200</td>
+        </tr>
+    </table>
+</body>
+</html>
